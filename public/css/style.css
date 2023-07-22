@@ -1,0 +1,54 @@
+.posts {
+    max-width: 70rem;
+
+    padding: 0 2rem 0;
+
+    gap: 8rem;
+}
+
+.title:link,
+.title:visited {
+    display: inline-block;
+    font-size: 3.052rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+
+    transition: all 0.3s;
+}
+
+.title:hover,
+.title:active {
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+
+.content {
+    font-size: 1.953rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    max-width: 100%;
+    /* max-height: 10rem; */
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+}
+
+.created {
+    font-size: 1.25rem;
+    color: #666;
+}
+
+.created a:link,
+.created a:visited {
+    color: #222;
+    
+    transition:  all 0.3s;
+}
+
+.created a:hover,
+.created a:active {
+    color: #000;
+}

@@ -1,0 +1,74 @@
+#email::placeholder {
+    color: #333;
+}
+
+#password::placeholder {
+    color: #111;
+    font-weight: 500;
+}
+
+.email-error {
+    color: #ff0000;
+
+    font-size: 1.563rem;
+}
+
+.Options {
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.563rem;
+}
+
+.Options a:link,
+.Options a:visited {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+
+    transition: all 0.3s;
+}
+
+.Options a:hover,
+.Options a:active {
+    color: #aaa;
+}
+
+.checkbox {
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.checkbox label {
+    font-size: 1.563rem;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    color: #111;
+}
+
+.btn--login {
+    background-color: #103d2a;
+    color: #fff;
+    padding: 1.3rem 4rem 1.3rem 1.2rem;
+    border-radius: 4px;
+}
+
+.form-footer p {
+    font-size: 1.563rem;
+    font-weight: 100;
+    color: #000;
+}
+
+.form-footer a:link,
+.form-footer a:visited {
+    font-size: 1.563rem;
+    font-weight: 500;
+    color: #053e37;
+
+    transition: all 0.3s;
+}
+
+.form-footer a:hover,
+.form-footer a:active {
+    color: #37655f;
+    text-decoration: none;
+}

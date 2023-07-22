@@ -1,0 +1,61 @@
+.form-box {
+    background-color: #fff;
+    max-width: 50rem;
+    box-shadow: 0 0 4px #000;
+
+    border-radius: 9px;
+
+    padding: 4rem;
+
+    margin-top: 10rem !important;
+    margin-bottom: 10rem !important;
+}
+
+.form-header {
+    font-size: 3.815rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    /* line-height: 0.45; */
+}
+
+.form input {
+    border: none;
+    box-shadow: inset 0 0 0 2px #aaa;
+    border-radius: 4px;
+    padding: 1.3rem 4rem 1.3rem 1.2rem;
+
+    font-size: 1.563rem;
+    font-family: inherit;
+    align-items: stretch;
+}
+
+.form input::placeholder {
+    color: #777;
+    font-weight: 400;
+}
+
+.checkbox {
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.checkbox input {
+    cursor: pointer;
+}
+.checkbox label {
+    font-size: 1.563rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #111;
+}
+
+
+
+.form {
+    margin-bottom: 2.4rem;
+}
+
+.subheader {
+    font-size: 1.953rem;
+    font-weight: 500;
+}

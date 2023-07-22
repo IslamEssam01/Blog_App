@@ -1,0 +1,27 @@
+.register-options {
+    align-items: center;
+    justify-content: space-between;
+}
+.register-options a:link,
+.register-options a:visited {
+    font-size: 1.6rem;
+    font-weight: 400;
+
+    text-decoration: none;
+
+    color: #111;
+
+    transition: all 0.3s;
+}
+
+.register-options a:hover,
+.register-options a:active {
+    color: #444;
+}
+
+.btn--register {
+    background-color: #103d2a;
+    color: #fff;
+    padding: 1.6rem 8rem 1.3rem 8rem;
+    border-radius: 4px;
+}

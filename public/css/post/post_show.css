@@ -1,0 +1,28 @@
+.post {
+    padding: 0 2rem 0;
+}
+
+.post-content {
+    font-size: 1.953rem;
+    max-width: 100%;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+}
+
+.btn--edit {
+    font-size: 1.563rem;
+    border-radius: 8px;
+    background-color: #103d2a;
+    color: #fff;
+
+    padding: 0.5rem 1rem;
+}
+
+.btn--delete {
+    font-size: 1.563rem;
+    border-radius: 8px;
+    background-color: #e60000;
+    color: #fff;
+
+    padding: 0.5rem 1rem;
+}

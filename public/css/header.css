@@ -1,0 +1,94 @@
+.header {
+    color: #555;
+    padding: 2rem 4rem 2rem;
+    align-items: center;
+
+    background-color: #d4cec7;
+
+    justify-content: space-between;
+
+    border-bottom: 2px solid #000;
+
+    margin-bottom: 8rem;
+}
+
+.logo {
+    font-size: 1.563rem;
+}
+
+.btn--login-header {
+    font-size: 1.953rem;
+    border-radius: 8px;
+    background-color: #103d2a;
+    color: #fff;
+
+    padding: 1rem 2rem;
+}
+.btn--add {
+    background-color: #103d2a;
+    font-size: 1.563rem;
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+
+    padding: 1rem 2rem;
+}
+
+.btn--logout {
+    font-size: 1.25rem;
+
+    text-align: center;
+
+    /* width: 80%; */
+}
+
+.user-name:link,
+.user-name:visited {
+    font-size: 1.563rem;
+    color: #444;
+
+    transition: all 0.3s;
+}
+
+.user-name:hover,
+.user-name:active {
+    color: #000;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+
+    padding: 1rem 2rem 1rem;
+    border-radius: 5px;
+    min-width: 16rem;
+    box-shadow: 0 0.8rem 1.6rem rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+    right: 0;
+}
+.dropdown-content a {
+    display: block;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: flex;
+
+    flex-direction: column;
+    gap: 2rem;
+
+    align-items: center;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.down-icon {
+    width: 2.4rem;
+    height: 2.4rem;
+}
