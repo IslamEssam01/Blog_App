@@ -6,7 +6,7 @@
             @csrf
             <h1 class="form-header">Post</h1>
             <div class="flex flex-col">
-                <input type="text" id="title" name="title" placeholder="title" />
+                <input type="text" id="title" name="title" placeholder="title" required/>
                 <textarea id="content" name="content" rows="15" cols="50" required></textarea>
             </div>
 
