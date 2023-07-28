@@ -41,6 +41,10 @@ Start the local development server
 
     php artisan serve
 
+Generate a new application key
+
+    php artisan key:generate
+
 
 ## Design
 Design heavily influenced by: Amir Morad
